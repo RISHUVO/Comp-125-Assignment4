@@ -1,0 +1,32 @@
+/* custom css lives here */
+
+body
+{
+    background-color: lightgray;
+}
+
+#canvas
+{
+    margin-left: 10px;
+    background-color: white;
+    border: 1px dotted black;
+}
+
+.reset-btn{
+    position: absolute;
+    top: 200px;
+    left: 515px;
+}
+
+.reset-btn button,
+.reset-btn button:focus{
+    border: 1px solid #EB2301;
+    background-color: #EB2301;
+    color: white;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 5px;
+    width: 70px;
+}
